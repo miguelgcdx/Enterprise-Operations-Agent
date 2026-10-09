@@ -1,0 +1,20 @@
+{
+  "name": "enterprise-operations-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "eve dev",
+    "build": "eve build",
+    "start": "eve start",
+    "check": "eve info"
+  },
+  "dependencies": {
+    "eve": "latest",
+    "ai": "latest",
+    "zod": "^4.0.0"
+  }
+}
